@@ -70,9 +70,8 @@ typedef struct VPUHwEndConfig
     RK_U32 mpeg4Enabled;           /* HW supports MPEG-4 */
     RK_U32 vsEnabled;              /* HW supports video stabilization */
     RK_U32 rgbEnabled;             /* HW supports RGB input */
-    RK_U32 busType;                /* HW bus type in use */
-    RK_U32 busWidth;
-    RK_U32 synthesisLanguage;
+    RK_U32 reg_size;                /* HW bus type in use */
+    RK_U32 reserv[2];
 } VPUHwEncConfig_t;
 
 typedef enum

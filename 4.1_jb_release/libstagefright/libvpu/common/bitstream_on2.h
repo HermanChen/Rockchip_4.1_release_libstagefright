@@ -20,62 +20,62 @@ public:
     RK_U32  getbits(RK_U32 bits);
 
     /***************************************************************************************************
-    	Func:
-    		getreadbits
-    	Description:
-    		get the consumed bits
-    	Author:
-    		Jian Huan
-    	Date:
-    		2010-12-3 10:26:08
+        Func:
+            getreadbits
+        Description:
+            get the consumed bits
+        Author:
+            Jian Huan
+        Date:
+            2010-12-3 10:26:08
      **************************************************************************************************/
     RK_U32 getreadbits()
     {
         return readbits;
     }
     /***************************************************************************************************
-    	Func:
-    		getbaseviraddr
-    	Description:
-    		get base virtual address of bitstream buffer
-    	Author:
-    		Jian Huan
-    	Date:
-    		2010-12-3 10:26:08
+        Func:
+            getbaseviraddr
+        Description:
+            get base virtual address of bitstream buffer
+        Author:
+            Jian Huan
+        Date:
+            2010-12-3 10:26:08
      **************************************************************************************************/
     RK_U8* getbaseviraddr()
     {
-    	return strbase;
+        return strbase;
     }
 
     /***************************************************************************************************
-    	Func:
-    		getbasephyaddr
-    	Description:
-    		get base physical address of bitstream buffer
-    	Author:
-    		Jian Huan
-    	Date:
-    		2010-12-3 10:26:08
+        Func:
+            getbasephyaddr
+        Description:
+            get base physical address of bitstream buffer
+        Author:
+            Jian Huan
+        Date:
+            2010-12-3 10:26:08
      **************************************************************************************************/
     RK_U32 getbasephyaddr()
     {
-    	return phybase;
+        return phybase;
     }
 
     /***************************************************************************************************
-    	Func:
-    		getchunksize
-    	Description:
-    		get buffer size
-    	Author:
-    		Jian Huan
-    	Date:
-    		2010-12-3 10:32:16
+        Func:
+            getchunksize
+        Description:
+            get buffer size
+        Author:
+            Jian Huan
+        Date:
+            2010-12-3 10:32:16
      **************************************************************************************************/
     RK_U32 getchunksize()
     {
-    	return chunksize;
+        return chunksize;
     }
     /***************************************************************************************************
         Func:
@@ -115,7 +115,7 @@ public:
             Jian Huan
         Date:
             2010-12-4 16:05:51
-     **************************************************************************************************/        
+     **************************************************************************************************/
     RK_U32 getoffset8()
     {
         return offset8;
